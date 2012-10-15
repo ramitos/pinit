@@ -1,0 +1,12 @@
+{
+  "name": "pinit",
+  "version": "0.0.1",
+  "description": "project init",
+  "bin": "bin/pinit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/pinit.git"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me>",
+  "license": "MIT"
+}
