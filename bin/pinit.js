@@ -42,6 +42,7 @@ prompt.get(fields, function (e, results) {
   process.chdir(cwd)
 
   sh.cd(cwd).and('git init')
+  sh.cd(cwd).and(interpolate('git remote add origin https://github.com/%s/%s.git', results.repo, results.name))
   sh.cd(cwd).and(interpolate('mkdir %s', 'src'))
   sh.cd(cwd).and(interpolate('mkdir %s', 'test'))
   sh.cd(cwd).and(interpolate('touch src/%s.js', results.name))
