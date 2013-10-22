@@ -1,12 +1,18 @@
 {
   "name": "pinit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "project init",
-  "bin": "bin/pinit",
+  "bin": "bin/pinit.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/ramitos/pinit.git"
   },
   "author": "Sérgio Ramos <mail@sergioramos.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "1.0.x",
+    "sh": "0.0.x",
+    "prompt": "0.2.x",
+    "mkdirp": "0.3.x"
+  }
 }
